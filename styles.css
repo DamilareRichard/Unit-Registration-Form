@@ -5,11 +5,14 @@
 }
 
 body{
-		background: #054c66;
+		padding: 10px;
+		margin: 10px;
+		background: transparent;
 		background-image: url(img4.jpg);
 		background-position: center;
 		background-size: cover;
 		background-repeat: no-repeat;
+		background-color: transparent;
 	}
 
 h1 {
@@ -33,27 +36,32 @@ p{
   width: 100%;
   height: 100%;
   margin: 10px;
-  padding: 2px;
+  padding: 0px;
   overflow: hidden;
- /* border: 1px solid black;*/
+  background: linear-gradient(to right top, #0F2027, #203A43, #2C5364);
+ 
 }
 
 
 input[type="text"], input[type="datetime-local"] {
   display: flex;
   flex-wrap: wrap;
-  /*width: 100%;*/
-  padding: 5px;
+  background: #fff;
+  width: 100%;
+  padding: 8px;
   border: 1px solid #ddd;
   border-radius: 5px;
   box-sizing: border-box;
-  margin-top: 10px;
-  margin-bottom: 5px;
+  margin-top: 12px;
+  margin-bottom: 7px;
   resize: horizontal;
   font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
 }
 
-label,input[type="text"]{
+label{
+	color: white;
 	font-family: 'Montserrat', sans-serif;
 }
 
@@ -64,9 +72,11 @@ input[type="submit"]{
 	outline: none;
 	height:30px;
 	font-size:15px;
-	width: 50%;
+	width: 80%;
 	border-radius: 20px; 
 	opacity: .8;
+	margin-bottom: 15px;
+
 }
 input[type="submit"]:hover{
 	background-color: green;
