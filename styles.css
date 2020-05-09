@@ -43,7 +43,7 @@ p{
 }
 
 
-input[type="text"], input[type="datetime-local"] {
+input[type="text"], input[type="date"] {
   display: flex;
   flex-wrap: wrap;
   background: #fff;
@@ -63,6 +63,11 @@ input[type="text"], input[type="datetime-local"] {
 label{
 	color: white;
 	font-family: 'Montserrat', sans-serif;
+}
+small{
+	font-size: 16px;
+	font-weight: 300;
+	color: #fff;
 }
 
 input[type="submit"]{
